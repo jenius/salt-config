@@ -4,6 +4,9 @@ postgresql:
   service.running:
     - enable: True
 
+libpq-dev:
+  pkg.installed
+
 root_user:
   postgres_user.present:
     - name: root
