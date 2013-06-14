@@ -15,6 +15,7 @@ rbenv_deps:
       - libyaml-dev
       - libsqlite3-0
       - libsqlite3-dev
+      - libreadline-dev
       - sqlite3
       - libxml2-dev
       - libxslt1-dev
